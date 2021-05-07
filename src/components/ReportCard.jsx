@@ -55,10 +55,10 @@ const ReportCard = ({ id }) => {
 							Registros Realizados: <strong>{registrosRealizados}</strong>
 						</li>
 						<li className='list-group-item'>
-							Temperatura Promedio: <strong>{temperaturaPromedio.toFixed(1)}°C</strong>
+							Temperatura Promedio: <strong>{temperaturaPromedio}°C</strong>
 						</li>
 						<li className='list-group-item'>
-							Humedad Promedio: <strong>{humedadPromedio.toFixed(1)}%</strong>
+							Humedad Promedio: <strong>{humedadPromedio}%</strong>
 						</li>
 						<li className='list-group-item'>
 							Altura Máxima: <strong>{alturaMaxima} cm</strong>

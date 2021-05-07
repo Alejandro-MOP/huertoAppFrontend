@@ -50,7 +50,7 @@ const useCreateRecord = () => {
 	};
 
 	const handleSubmit = async () => {
-		if (fecha === '' || temp === 0 || hum === 0 || alt === 0) {
+		if (fecha === '' ) {
 			setError({
 				status: true,
 				msg: 'Todos los campos son obligatorios.',
