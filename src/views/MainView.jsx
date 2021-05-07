@@ -48,6 +48,17 @@ const MainView = () => {
 						/>
 					))}
 				</div>
+
+				<div className='d-flex flex-column justify-content-center align-items-center mt-4 text-primary'>
+					<h5>Aplicación para aprobar el Proyecto Rector correspondiente al 5° Cuatrimestre</h5>
+					<h6>Integrantes:</h6>
+					<ul>
+						<li>Montes de Oca Pérez Luis Alejandro</li>
+						<li>Méndez Miranda Axel</li>
+						<li>Ramirez Gallegos Jonathan</li>
+						<li>Rodriguez Rodriguez Eric Uriel</li>
+					</ul>
+				</div>
 			</div>
 		</>
 	);
