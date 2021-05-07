@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://127.0.0.1:4000';
+const baseURL = 'https://huerto-app.herokuapp.com/';
 
 const axiosClient = axios.create({ baseURL });
 
